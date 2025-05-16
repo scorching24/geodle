@@ -6,7 +6,7 @@ import pydeck as pdk
 
 @st.cache_data
 def load_data():
-    return pd.read_csv(r'C:\Users\kento\OneDrive\New folder\geodle\final_data.csv')
+    return pd.read_csv('final_data.csv')
 
 df = load_data()
 
